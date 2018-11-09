@@ -82,17 +82,29 @@
   /* iPads (landscape) ----------- */
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
   /* Styles */
+  #particles-js {
+    display: none;
+  }
+
   }
   
   /* iPads (portrait) ----------- */
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
   /* Styles */
+  #particles-js {
+    display: none;
+  }
+
   }
   /**********
   iPad 3
   **********/
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
   /* Styles */
+  #particles-js {
+    display: none;
+  }
+
   }
   
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
@@ -151,40 +163,76 @@
   
   @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
   /* Styles */
+  #particles-js {
+    display: none;
+  }
+
   }
   
   /* iPhone XS Max, XR ----------- */
   @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
   /* Styles */
+  #particles-js {
+    display: none;
+  }
+
   }
   
   @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
   /* Styles */
+  #particles-js {
+    display: none;
+  }
+
   }
   
   /* Samsung Galaxy S3 ----------- */
   @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
   /* Styles */
+  #particles-js {
+    display: none;
+  }
+
   }
   
   @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
   /* Styles */
+  #particles-js {
+    display: none;
+  }
+
   }
   
   /* Samsung Galaxy S4 ----------- */
   @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
   /* Styles */
+  #particles-js {
+    display: none;
+  }
+
   }
   
   @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
   /* Styles */
+  #particles-js {
+    display: none;
+  }
+
   }
   
   /* Samsung Galaxy S5 ----------- */
   @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
   /* Styles */
+  #particles-js {
+    display: none;
+  }
+
   }
   
   @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
   /* Styles */
+  #particles-js {
+    display: none;
+  }
+
   }
