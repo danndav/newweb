@@ -15,7 +15,14 @@
   }
 
   #particles-js {
-    display: none;
+    width: 100px;
+    height: 76%;
+    position: absolute;
+    background-position: 50% 50%;
+    z-index: 1000;
+    
+    
+    
   }
 
   
