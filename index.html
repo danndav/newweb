@@ -9,7 +9,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>E-settlement</title>
+    
+    <title>
+       E-settlement
+    </title>
+    <link rel=" icon" href="images/logo21.ico" type="image/x-icon" />
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -17,14 +21,14 @@
 
     <!-- Custom styles for this template -->
     <link href="css/index.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="css/responsiveness.css"> -->
+    <link rel="stylesheet" href="css/responsiveness.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     
-
+   
   </head>
 
   <body>
@@ -60,7 +64,7 @@
     <!-- Page Content -->
     <div class="container" id="showcase">
         <div class="row">
-            <div class="col-lg-10 col-md-push-10 enabling">
+            <div class="col-lg-12 col-md-12 enabling" class="float-left">
                 <h1 class="mt-4" class="pt-4">Enabling Financial Inclusion in Africa</h1>
                 <h4 class="">Touching lives and growing businesses</h4>
                <p>We are touching lives by providing access to financial services and creating jobs
@@ -69,10 +73,11 @@
                </p>
                <a href="" role="button" class="btn btn-outline-dark" ><b>Contact Us</b> <i class="fa fa-angle-right"></i></a>
             </div>
-            <div class="col-lg-2 col-md-2">
-                <div id=""></div>
-                <br><br><br><br>
-            </div>
+            <span id="particles-js"></span>
+            <!-- <div class="col-lg-2 col-md-2">
+                
+                
+            </div> -->
          </div>
     </div>
     
@@ -93,25 +98,26 @@
 
       <div class="container">
         <div class="row " id="products" >
+            
           <div class="col-lg-12 text-center " >
             <h1>Our Products</h1>
+            
           </div>
         </div>
+        
       </div>
-
+        
         <div class="container">
-            <div class="row " id="products"  >
+            <div class="row " id="products" id="pay" >
                 <div class="col-lg-6 col-sm-12 mb-4 "  >
-                            
-                        <br>
-                        <br>
-                        <br><br>
-                        <br><br><br><br>
+                    <div  id="particles2-js"></div>
+                        
                             <h2>Pay Centre</h2>
                             <p>PayCentre is a neighbourhood bank! the solution provides access to financial services in areas where Banks do 
                                 not exist by converting existing retail outlets to banking centres.
                             </p>
                             <a href="#">Visit Product  <i class="fa fa-angle-right"></i></a>
+                           
                 </div>
                 <div class="col-lg-6 col-sm-12 ">
                     <img class="shake" src="images/ZNIPBH/artboard_____2_3x.jpg" alt="">
@@ -123,10 +129,7 @@
           <div class="row " id="products" >
               <div class="col-lg-6 col-sm-12 order-md-2  order-sm-2 order-lg-2"  >
                 <div>
-                        <br>
-                    <br>
-                    <br><br>
-                    <br><br><br><br>
+                    <div  id="particles3-js"></div>
                     <h2>Cash Envoy</h2>
                     <p>CashEnvoy is a payment gateway that allows merchants receive payment for oods
                         and services from customers online and offline through the mpos
@@ -144,13 +147,10 @@
         <div class="container">
             <div class="row " id="products" >
               <div class="col-lg-6 col-sm-12 mb-4" >
-                <br>
-                <br>
-                <br><br>
-                <br><br><br><br>
+                <div  id="particle4-js"></div>
                   <h2>PayPad</h2>
                         <p>PayPad is a white labelled mpos solution. That allows Banks and acquiring institutions deploy mpos solutions
-                            for their customers to accept card and cash payment
+                            for their customers to accept card and cash paymentclass
                         </p>
                         <a href="#">Visit Product <i class="fa fa-angle-right"></i></a>
               </div>
@@ -270,7 +270,12 @@
     
       </footer>
 
+      <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      
+
     <script src="js/app.js"></script>
+   
     <script>
         particlesJS.load('particles-js','js/particles.json', function(){
             console.log('particles.json loaded');
@@ -280,7 +285,21 @@
             particlesJS.load('particles2-js','js/particles2.json', function(){
                 console.log('particles.json loaded');
             })
-        </script>
+    </script>
+
+<script>
+    particlesJS.load('particles3-js','js/particles2.json', function(){
+        console.log('particles.json loaded');
+    })
+</script>
+
+<script>
+  particlesJS.load('particles4-js','js/particles4.json', function(){
+      console.log('particles.json loaded');
+  })
+</script>
+
+
     
 
   </body>
