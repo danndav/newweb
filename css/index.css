@@ -179,7 +179,7 @@ footer{
 }
 
 #particles4-js {
-  width: 100%;
+  width: 400px;
   height: 76%;
   position: absolute;
   background-position: 50% 50%;
@@ -196,7 +196,16 @@ footer{
 .slick-slide {
   margin: 0px 20px;
 }
-
+#particles-js {
+  width: 1245px;
+  height: 76%;
+  position: absolute;
+  background-position: 50% 50%;
+  z-index: 1000;
+  
+  padding-left: 600px
+  
+}
 .slick-slide img {
   max-width: 100%;
   max-height: 50px;
