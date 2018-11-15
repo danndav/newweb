@@ -17,6 +17,91 @@ a {
 	text-decoration: none;
 }
 
+.header-nav {
+ 	padding: 15px 10px;
+	-webkit-transition: all 0.2s ease;
+	   -moz-transition: all 0.5s ease;
+	   	 -o-transition: all 0.2s ease;
+			    transition: all 0.2s ease;
+}
+
+
+
+.header-nav .navbar-nav > li {
+	margin: 0 0 0 20px;
+}
+.header-nav .navbar-nav .nav-link {
+  position: relative;
+  padding: 5px 0px;
+  display: inline-block;
+  font-size: 14px;
+  vertical-align: top;
+  color: #ffffff;
+  font-weight: 600;
+}
+.header-nav .navbar-nav .nav-link:after {
+	content: '';
+	position: absolute;
+	z-index: 10;
+	width: 0;
+	height: 2px;
+	background: #ccc;
+	-webkit-transition: ease all 0.2s;
+	   -moz-transition: ease all 0.2s;
+		 -o-transition: ease all 0.2s;
+			transition: ease all 0.2s;
+	
+}
+.header-nav .navbar-nav .nav-link:after {
+	bottom: 0;
+	left: 0;
+}
+.header-nav .navbar-nav .nav-link.active:after{
+	width: 100%;
+}
+
+/*Navbar Toogle*/
+.navbar-toggler {
+  border: none;
+  padding: 10px 6px;
+  outline: none !important;
+}
+.navbar-toggler span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  background: #fff;
+}
+.navbar-toggler span + span {
+    margin-top: 4px;
+}
+/**/
+
+/* 
+.header-nav.fixed-header {
+  margin-top: 0;
+  padding: 12px 10px;
+  background: #fff;
+  box-shadow: 0 0 6px rgba(0,0,0,0.5);
+} */
+
+@media (max-width: 991px){
+  .navbar-nav {
+    padding-top: 5px;
+  }
+  .header-nav .navbar-nav > li {
+    margin: 8px 0;
+  }
+  .header-nav .navbar-nav .nav-link {
+    padding: 0;
+  }
+}
+
+
+
+
+
 /* change the background color */
 .navbar {
   background: #091F3C;
@@ -30,6 +115,7 @@ text-decoration: none;
   padding: 10px 15px;
   }
 
+    
   .fade-in {
     visibility: visible;
     opacity: 1;
@@ -44,7 +130,7 @@ text-decoration: none;
 
  #showcase h1{
     margin-top:100px;
-    padding-top: 80px;
+    padding-top: 100px;
     color: #C9092E;
     font-size: 55px;
 }
@@ -153,12 +239,16 @@ footer{
     padding-left: 30px;
     text-align: center;
     border-radius: 20px;
+    
+}
+.btn :hover{
+  background: #091F3C;
 }
 
 
 #particles-js {
   width: 1245px;
-  height: 76%;
+  height: 40%;
   position: absolute;
   background-position: 50% 50%;
   z-index: 1000;
