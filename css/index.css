@@ -290,6 +290,12 @@ footer{
   
 }
 
+.page-footer img{
+  
+  max-width: 180px;
+  max-height:30px;
+}
+
 
 #particles3-js {
   width: 100%;
