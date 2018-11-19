@@ -48,9 +48,9 @@
         },
         "move": {
           "enable": true,
-          "speed": 1.6,
+          "speed": 0,
           "direction": "none",
-          "random": false,
+          "random": true,
           "straight": false,
           "out_mode": "out",
           "bounce": false,
