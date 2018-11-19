@@ -87,7 +87,7 @@
   }
   
   /* iPads (portrait and landscape) ----------- */
-  @media only screen and (min-width : 768px) and (max-width : 1024px) {
+  @media only screen and (min-width : 768px) and (max-width : 1023px) {
   /* Styles */
   footer img{
     width:50;
@@ -98,6 +98,18 @@
   
     max-width: 100px;
     max-height:30px;
+  }
+
+  #products {
+    display: flex;
+    flex-direction: column;
+  }
+  #prodcts #img1 {
+    order: 1;
+  }
+  #products #img2 {
+    display: block;
+    order: 2;
   }
   
 
@@ -114,6 +126,8 @@
     max-width: 100px;
     max-height:30px;
   }
+
+  
   
   }
   
@@ -128,6 +142,12 @@
     max-width: 100px;
     max-height:30px;
   }
+
+  footer {
+    margin-top: 122px;
+    padding-top: 50px;
+    background: #091F3C;
+}
   
 
   }
