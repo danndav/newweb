@@ -564,7 +564,7 @@ animation-timing-function: linear;
 
 @media (max-width: 767px){
   .contact-form {
-      padding: 15px;
+      padding: 5px;
   }
   .contact-form h2 {
     margin-bottom: 20px;
