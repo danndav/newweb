@@ -251,6 +251,16 @@ footer{
   padding-top:50px;
   background: #091F3C
 }
+.contacfooter{
+  position: absolute;
+right: 0;
+bottom: 0;
+left: 0;
+padding: 1rem;
+background-color: #efefef;
+text-align: center;
+}
+
 
 .btn{
   padding:10px;
@@ -312,6 +322,7 @@ footer{
   max-width: 200px;
   max-height:30px;
 }
+
 
 
 #particles3-js {
@@ -490,15 +501,8 @@ animation-timing-function: linear;
 #contact{
   margin-top: 100px;
   margin-bottom: -141px;
-  
- 
-  
 }
-/* .contact-info-box {
-  padding: 30px 10px;
-  margin-bottom: 40px;
-  
-} */
+
 .contact-info-box h2 {
   color: #fff;
   font-size: 18px;
@@ -581,9 +585,7 @@ animation-timing-function: linear;
   }
 }
 
-/*-----------------------------------------class=""
-* 04. Buttons
------------------------------------------*/
+
 .btn {
   
   line-height: inherit;
