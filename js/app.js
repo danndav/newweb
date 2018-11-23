@@ -32,3 +32,13 @@ $(document).ready(function(){
         }, 1000, 'swing');
     });
 });
+
+// $(document).ready(function(){
+//     $('.navbar-nav > li').click(function(event) {
+// 		event.preventDefault();
+// 		var target = $(this).find('>a').prop('hash');
+// 		$('html, body').animate({
+// 			scrollTop: $(target).offset().top
+// 		}, 500);
+// 	});
+// });
