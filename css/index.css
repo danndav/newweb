@@ -251,14 +251,16 @@ footer{
   padding-top:50px;
   background: #091F3C
 }
-.contacfooter{
-  position: absolute;
-right: 0;
-bottom: 0;
-left: 0;
-padding: 1rem;
-background-color: #efefef;
+.footer{
+  
+margin-top:50px;
+padding-top:50px;
+background: #091F3C;
 text-align: center;
+max-height:150px; 
+margin-top: 771px; 
+padding-top: 5px;
+
 }
 
 
@@ -529,6 +531,7 @@ animation-timing-function: linear;
   text-align: center;
   opacity: 0.8;
   font-size: 19px;
+  
 }
 .contact-info p {
   margin: 0;

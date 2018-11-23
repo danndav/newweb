@@ -83,6 +83,18 @@ body::-webkit-scrollbar-thumb {
 background-color:#091F3C;;
 outline: 1px solid blue;
 }
+.footer{
+  
+  margin-top:50px;
+  padding-top:50px;
+  background: #091F3C;
+  text-align: center;
+  max-height:150px; 
+  margin-top: 177px; 
+  padding-top: 5px;
+  
+  }
+  
 
   }
 
@@ -156,6 +168,23 @@ outline: 1px solid blue;
     width:50;
     height: 20;
   }
+  footer {
+    margin-top: 435px;
+    padding-top: 22px;
+    background: #091F3C;
+
+}
+.footer{
+  
+  margin-top:50px;
+  padding-top:50px;
+  background: #091F3C;
+  text-align: center;
+  max-height:150px; 
+  margin-top: 207px; 
+  padding-top: 5px;
+}
+  
 
   .page-footer img{
   
@@ -240,11 +269,11 @@ outline: 1px solid blue;
   }
 
   footer {
-    margin-top: 122px;
-    padding-top: 50px;
+    margin-top: 754px;
+    padding-top: 22px;
     background: #091F3C;
 }
- 
+    
 
 /* scrollbar */
 
@@ -264,6 +293,21 @@ outline: 1px solid blue;
 
 
   }
+
+  @media only screen and (min-device-width : 1280px) and (max-device-width : 950px) and (orientation : portrait) {
+    .footer{
+  
+      margin-top:50px;
+      padding-top:50px;
+      background: #091F3C;
+      text-align: center;
+      max-height:150px; 
+      margin-top: 358px; 
+      padding-top: 5px;
+    }
+  }
+
+  
   /**********
   iPad 3
   **********/
